@@ -10,7 +10,7 @@ const CharactersByHero = ({alter_ego, characters}) => {
 
 export const HeroCard = ({id, superhero, publisher, alter_ego,first_appearance, characters, }) => {
 
-    const heroeImage = `https://i.pinimg.com/originals/f1/0c/23/f10c236aa8d4007addf6e6051f4524ab.jpg`;
+    const heroeImage = `./assets/heroes/${id}.jpg`;
 
     // const charactersByHero = (<p>{characters}</p>);
 
