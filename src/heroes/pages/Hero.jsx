@@ -19,9 +19,9 @@ export const Hero = () => {
   }
 
   return (
-    <div className="row mt-5 animate__animated animate__fadeInLeft">
+ <div className="row mt-5 animate__animated animate__fadeInLeft">
       <div className="col-4">
-        <img src={`https://i.pinimg.com/originals/f1/0c/23/f10c236aa8d4007addf6e6051f4524ab.jpg`} alt={hero.superhero }className="img-thumbnail" />
+        <img src={`/assets/heroes/${id}.jpg`} alt={hero.superhero }className="img-thumbnail" />
       </div>
       <div className="col-8">
         <h3>{hero.superhero}</h3>
